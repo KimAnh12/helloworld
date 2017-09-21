@@ -15,6 +15,7 @@ namespace Hello_World
         public frmHelloWorld()
         {
             InitializeComponent();
+            MinimumSize = new Size(lblHelloWorld.Width, lblHelloWorld.Width);
         }
 
         private void frmHelloWorld_Load(object sender, EventArgs e)

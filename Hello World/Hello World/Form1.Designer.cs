@@ -40,13 +40,14 @@
             this.lblHelloWorld.ForeColor = System.Drawing.Color.Red;
             this.lblHelloWorld.Location = new System.Drawing.Point(297, 121);
             this.lblHelloWorld.Name = "lblHelloWorld";
-            this.lblHelloWorld.Size = new System.Drawing.Size(0, 80);
-            this.lblHelloWorld.TabIndex = 0;
+            this.lblHelloWorld.Size = new System.Drawing.Size(338, 80);
+            this.lblHelloWorld.TabIndex = 1;
+            this.lblHelloWorld.Text = "                ";
             this.lblHelloWorld.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnShow
             // 
-            this.btnShow.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnShow.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnShow.Location = new System.Drawing.Point(234, 310);
             this.btnShow.Name = "btnShow";
             this.btnShow.Size = new System.Drawing.Size(151, 30);
@@ -63,6 +64,7 @@
             this.Controls.Add(this.btnShow);
             this.Controls.Add(this.lblHelloWorld);
             this.Name = "frmHelloWorld";
+            this.ShowIcon = false;
             this.Text = "Hello World";
             this.Load += new System.EventHandler(this.frmHelloWorld_Load);
             this.ResumeLayout(false);
